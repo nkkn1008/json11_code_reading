@@ -48,7 +48,8 @@ int main(int argc, char **argv) {
 		parse_from_stdin();
 		return 0;
 	}
-
+	auto test = 10;
+	
 	const string simple_test =
 		R"({"k1":"v1", "k2":42, "k3":["a",123,true,false,null]})";
 
